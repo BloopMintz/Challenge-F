@@ -1,0 +1,11 @@
+# Challenge F :0000
+use_synth :dtri
+x=sleep 0.5
+v=22
+play v
+x
+87.times do
+  v=v+1
+  play v
+  sleep 0.1
+end
